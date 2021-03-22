@@ -1,0 +1,9 @@
+@import "FontConfig.css";
+
+#logo{
+    width: 50px;
+}
+
+#navbar{
+    font-family: "Open-Sans";
+}
