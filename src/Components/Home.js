@@ -2,7 +2,7 @@ import react from 'react'
 import './css/Home.css'
 import Header from './Header'
 import Carrossel from './Carrossel'
-import Posts from './Posts'
+import Posts from './PostsHome'
 
 function Home()
 {
