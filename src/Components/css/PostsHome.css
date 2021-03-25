@@ -1,29 +1,14 @@
 @import "FontConfig.css";
 
-#cardContent{
-    position:relative;
-    margin: 3%;
-    top: 1%;
-}
-
 #textPosts{
     font-family: "Open-Sans";
-    font-size: 30px;
+    font-size: 26px;
     position: absolute;
     margin-top: 2%;
     margin-left: 4%;
 }
 
-#cardDeck{
-    position: absolute;
-    margin-top: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: aqua;
-
-}
-
 #posts{
-    background-color: aqua;
-    height: 100%;
+    background-color: #F1F1F1;
+    height: 300px;
 }

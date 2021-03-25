@@ -3,6 +3,8 @@ import './css/Home.css'
 import Header from './Header'
 import Carrossel from './Carrossel'
 import Posts from './PostsHome'
+import QuemSomos from './QuemSomos'
+import Funcionamento from './Funcionamento'
 
 function Home()
 {
@@ -11,6 +13,8 @@ function Home()
             <Header/>
             <Carrossel/>
             <Posts/>
+            <QuemSomos/>
+            <Funcionamento/>
         </div>
     )
 }

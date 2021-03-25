@@ -2,9 +2,9 @@ import react from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/Carrossel.css'
 import Carousel from 'react-bootstrap/Carousel'
-import image1 from '../images/carrossel1.jpg'
-import image2 from '../images/carrossel2..jpeg'
-import image3 from '../images/carrossel3.jpg'
+import image1 from '../images/1.jpg'
+import image2 from '../images/2.jpg'
+import image3 from '../images/3.jpg'
 
 function Carrossel()
 {
