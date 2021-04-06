@@ -1,0 +1,19 @@
+@import "FontConfig.css";
+
+#PVoluntario{
+    background-color: #fdaaaa;
+    font-family: "Open-Sans";
+    font-size: 16px;
+}
+    
+
+#textPVoluntario{
+    font-family: "Open-Sans";
+    font-size: 26px;
+}
+
+#textBody{
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+}

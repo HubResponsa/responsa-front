@@ -1,0 +1,18 @@
+@import "FontConfig.css";
+
+#Colabore{
+    background-color: #F97C7C;
+    font-family: "Open-Sans";
+    font-size: 16px;
+}
+
+#textColabore{
+    font-family: "Open-Sans";
+    font-size: 26px;
+}
+
+#textBody{
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+}
