@@ -9,10 +9,9 @@ function Contato()
     return(
         <Accordion>
             <Card id="Contato">
-                <Card.Header id="textContato">
-                
-                </Card.Header>
-                <Card.Body id="textBody"></Card.Body>
+                <Card.Body id="textBody">
+                    
+                    </Card.Body>
             </Card>
         </Accordion>
     )

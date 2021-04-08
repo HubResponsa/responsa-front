@@ -1,7 +1,6 @@
 @import "FontConfig.css";
 
 #Contato{
-    background-color: #fdaaaa;
     font-family: "Open-Sans";
     font-size: 16px;
 }
@@ -10,6 +9,7 @@
 #textContato{
     font-family: "Open-Sans";
     font-size: 26px;
+
 }
 
 #textBody{
