@@ -7,8 +7,7 @@ import QuemSomos from './QuemSomos'
 import Funcionamento from './Funcionamento'
 import Voluntarios from './Voluntarios'
 import Colabore from './Colabore'
-import PAluno from './PAluno'
-import PVoluntario from './PVoluntário'
+import Participe from './Participe'
 import Contato from './Contato'
 
 function Home()
@@ -22,8 +21,7 @@ function Home()
             <Funcionamento/>
             <Voluntarios/>
             <Colabore/>
-            <PAluno/>
-            <PVoluntario/>
+            <Participe/>
             <Contato/>
         </div>
     )
