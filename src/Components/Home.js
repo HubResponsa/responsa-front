@@ -1,4 +1,3 @@
-import react from 'react'
 import './css/Home.css'
 import Header from './Header'
 import Carrossel from './Carrossel'
