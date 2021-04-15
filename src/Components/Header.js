@@ -18,13 +18,13 @@ function Header()
                     <Nav.Link href="#posts">Posts</Nav.Link>
                     <Nav.Link href="#QuemSomos">Quem Somos</Nav.Link>
                     <Nav.Link href="#Funcionamento">Funcionamento</Nav.Link>
-                    <Nav.Link href="#">Voluntários</Nav.Link>              
-                    <Nav.Link href="#">Colabore</Nav.Link>
+                    <Nav.Link href="#Voluntarios">Voluntários</Nav.Link>              
+                    <Nav.Link href="#Colabore">Colabore</Nav.Link>
                     <NavDropdown title="Participe" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Aluno</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Voluntário</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#">Contato</Nav.Link>
+                    <Nav.Link href="#Contato">Contato</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
