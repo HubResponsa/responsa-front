@@ -9,8 +9,8 @@ function Contato()
         <Accordion>
             <Card id="Contato">
                 <Card.Body id="textBody">
-                    
-                    </Card.Body>
+                    Contato    
+                </Card.Body>
             </Card>
         </Accordion>
     )
