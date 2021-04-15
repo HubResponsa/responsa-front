@@ -18,7 +18,12 @@
 }
     
 
-#textSub{
+#PAluno{
+    font-family: "Open-Sans";
+    font-size: 22px;
+}
+
+#PVoluntario{
     font-family: "Open-Sans";
     font-size: 22px;
 }

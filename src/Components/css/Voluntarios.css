@@ -6,18 +6,17 @@
 }
 
 #lista{
-    display: inline;
-    margin: 25px;;
+    align-items: center;
+}
+
+#itemLista{
+    align-self: center;
+    background-color: #fcfcfc;
+    
 }
     
 
 #textVoluntarios{
     font-family: "Open-Sans";
     font-size: 26px;
-}
-
-#textBody{
-    position: relative;
-    margin-left: 3%;
-    margin-right: 3%;
 }
