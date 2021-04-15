@@ -16,7 +16,7 @@ function Home()
         <div id="home">
             <Header/>
             <Carrossel/>
-            <Posts/>
+            {/* <Posts/> */}
             <QuemSomos/>
             <Funcionamento/>
             <Voluntarios/>

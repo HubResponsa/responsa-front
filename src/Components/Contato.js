@@ -25,7 +25,7 @@ function Contatos()
                         </ListGroup>
                         <ListGroup horizontal>
                             <ListGroup.Item id="itemLista"><TwitterIcon id="icon"/><a href="https://twitter.com/ResponsaPopular">Cursinho Popular Responsa</a></ListGroup.Item>
-                            <ListGroup.Item id="itemLista"><AlternateEmailIcon id="icon"/><a href="https://twitter.com/home">cursinhoresponsa@gmail.com</a></ListGroup.Item>
+                            <ListGroup.Item id="itemLista"><AlternateEmailIcon id="icon"/><a>cursinhoresponsa@gmail.com</a></ListGroup.Item>
                         </ListGroup>
                     </div>
                     </Card.Body>

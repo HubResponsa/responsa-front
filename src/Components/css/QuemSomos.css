@@ -1,14 +1,20 @@
 @import "FontConfig.css";
 
 #QuemSomos{
+    position: relative;
+    margin-top: 4%;
     font-family: "Open-Sans";
     font-size: 16px;
+    border-color: transparent;
 }
     
 
 #textQuemSomos{
     font-family: "Open-Sans";
     font-size: 26px;
+    position: relative;
+    margin-left: 3%;
+    
 }
 
 #textBody{

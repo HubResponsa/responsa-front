@@ -10,11 +10,14 @@
 #Funcionamento{
     font-family: "Open-Sans";
     font-size: 16px;
+    ;
 }
 
 #textFuncionamento{
     font-family: "Open-Sans";
     font-size: 26px;
+    position: relative;
+    margin-left: 3%;
 }
 
 #textBody{
