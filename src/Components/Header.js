@@ -10,7 +10,7 @@ function Header()
 {
     return(
         <div id="header">
-            <Navbar fixed="top" expand="lg" variant="light" id="navbar">
+            <Navbar sticky="top" expand="lg" variant="light" id="navbar">
                 <Navbar.Brand href="#home"> <img src={Logo2} id="logo"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
