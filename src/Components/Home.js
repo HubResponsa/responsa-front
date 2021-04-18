@@ -1,8 +1,6 @@
-import react from 'react'
 import './css/Home.css'
 import Header from './Header'
 import Carrossel from './Carrossel'
-import Posts from './PostsHome'
 import QuemSomos from './QuemSomos'
 import Funcionamento from './Funcionamento'
 import Voluntarios from './Voluntarios'

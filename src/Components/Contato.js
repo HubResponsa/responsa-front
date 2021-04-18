@@ -1,4 +1,3 @@
-import react from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './css/Contato.css'
 import Accordion from 'react-bootstrap/Accordion'
@@ -25,7 +24,7 @@ function Contatos()
                         </ListGroup>
                         <ListGroup horizontal>
                             <ListGroup.Item id="itemLista"><TwitterIcon id="icon"/><a href="https://twitter.com/ResponsaPopular">Cursinho Popular Responsa</a></ListGroup.Item>
-                            <ListGroup.Item id="itemLista"><AlternateEmailIcon id="icon"/><a>cursinhoresponsa@gmail.com</a></ListGroup.Item>
+                            <ListGroup.Item id="itemLista"><AlternateEmailIcon id="icon"/><a href="#">cursinhoresponsa@gmail.com</a></ListGroup.Item>
                         </ListGroup>
                     </div>
                     </Card.Body>

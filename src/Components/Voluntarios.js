@@ -1,4 +1,3 @@
-import react from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './css/Voluntarios.css'
 import Accordion from 'react-bootstrap/Accordion'
