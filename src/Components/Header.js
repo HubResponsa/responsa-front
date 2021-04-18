@@ -3,14 +3,14 @@ import './css/Header.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import Logo2 from '../images/ResPNG.png'
+import Logo from '../images/logo.png'
 
 function Header()
 {
     return(
         <div id="header">
             <Navbar sticky="top" expand="lg" variant="light" id="navbar">
-                <Navbar.Brand href="#home"> <img alt="responsa's logo" src={Logo2} id="logo"/></Navbar.Brand>
+                <Navbar.Brand href="#home"> <img alt="responsa's logo" src={Logo} id="logo"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
