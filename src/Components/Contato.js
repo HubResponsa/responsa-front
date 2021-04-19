@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './css/Contato.css'
-import Accordion from 'react-bootstrap/Accordion'
+import './css/main.css'
 import Card from 'react-bootstrap/Card'
-import ListGroup from  'react-bootstrap/ListGroup'
+import Table from  'react-bootstrap/Table'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail'
@@ -12,24 +11,35 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 function Contatos()
 {
     return(
-        <Accordion>
-            <Card id="Contato">
-                <Card.Body id="textBody">
-                <p id="textContato">Contatos</p>
-                    <br/>
-                    <div id="listaContatos">
-                        <ListGroup horizontal>
-                            <ListGroup.Item id="itemLista"><FacebookIcon id="icon"/><a href="https://www.facebook.com/cursinhoresponsa/">Cursinho Responsa</a></ListGroup.Item>
-                            <ListGroup.Item id="itemLista"><InstagramIcon id="icon"/><a href="https://www.instagram.com/cursinhoresponsa/">Cursinho Responsa</a></ListGroup.Item>
-                        </ListGroup>
-                        <ListGroup horizontal>
-                            <ListGroup.Item id="itemLista"><TwitterIcon id="icon"/><a href="https://twitter.com/ResponsaPopular">Cursinho Popular Responsa</a></ListGroup.Item>
-                            <ListGroup.Item id="itemLista"><AlternateEmailIcon id="icon"/><a href="#">cursinhoresponsa@gmail.com</a></ListGroup.Item>
-                        </ListGroup>
-                    </div>
-                    </Card.Body>
-          </Card>
-        </Accordion>
+        <Card id="Contato">
+            <Card.Body className="section-card">
+                <p className="section-title">Contatos</p>
+                <Table bordered hover>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <FacebookIcon id="icon"/>
+                                <a href="https://www.facebook.com/cursinhoresponsa/">Cursinho Responsa</a>
+                            </td>
+                            <td>
+                                <InstagramIcon id="icon"/>
+                                <a href="https://www.instagram.com/cursinhoresponsa/">Cursinho Responsa</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <TwitterIcon id="icon"/>
+                                <a href="https://twitter.com/ResponsaPopular">Cursinho Popular Responsa</a>
+                            </td>
+                            <td>
+                                <AlternateEmailIcon id="icon"/>
+                                <a href="#">cursinhoresponsa@gmail.com</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </Table>
+            </Card.Body>
+        </Card>
     )
 }
 

@@ -1,75 +1,80 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './css/Voluntarios.css'
-import Accordion from 'react-bootstrap/Accordion'
+import './css/main.css'
 import Card from 'react-bootstrap/Card'
-import ListGroup from  'react-bootstrap/ListGroup'
+import { Table } from 'react-bootstrap'
+
+const MEMBERS = [
+    "Amanda Teófilo Domingues",
+    "Isabela Eun Hae Yang",
+    "Heloisa Nogueira Marques",
+    "Ana Clara Sampaio Pires",
+    "Isabela Sandroni Quaresma da Silva",
+    "Luís Eduardo Harada",
+    "Ana Paula Pedronetti de Godoy",
+    "Ivan Saavedra",
+    "Manuela Queiroz",
+    "André Luiz Namias Vicente",
+    "João Victor de Oliveira Murer",
+    "Maria Vitória Hozana",
+    "André Pizzirani",
+    "João Vitor Lourenço de Oliveira",
+    "Murilo Yutaka Kushi",
+    "Antonio Carlos Ferreira Maximo (redes sociais)",
+    "Julia Campoli Sacco",
+    "Pietra Giulia de Oliveira Murer",
+    "Eduarda Gabrielly Silva",
+    "Kauã Jocarelli Pongiluppe",
+    "Pietra Puglia Nuti",
+    "Fernando Sotero de Lara",
+    "Lays Barreira Garcia",
+    "Rafaela Carolina dos Anjos Schmidt",
+    "Gustavo Ferreira Gitzel",
+    "Lívia Maria Rosa Brandão",
+    "Rafaela Daroz Mondelli",
+    "Gabriel Luiz Adriao Portela de Oliveira",
+    "Lorenza Vitoria Martins de Oliveira",
+    "Vitor Gabriel Marinho Domingues",
+]
+
+function prepareArray(array){
+    array.sort()
+    var table = []
+    var new_row = []
+    array.forEach(element => {
+        if (new_row.length < 3)
+            new_row.push(element)
+        else{
+            table.push(new_row.map(String))
+            new_row = [element]
+        }
+    });
+    table.push(new_row)
+    return table
+}
+
+function populate(array, index){
+    return (
+        <tr key={index}>
+            <td> {array[0]} </td>
+            <td> {array[1]} </td>
+            <td> {array[2]} </td>
+        </tr>
+    )
+}
 
 function Voluntarios()
 {
     return(
-        <Accordion>
-            <Card id="Voluntarios">
-                <Card.Body id="textBody">
-                    <p id="textVoluntarios">Voluntários</p>
-                    <br/>
-                    <div id="lista">
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Amanda Teófilo Domingues</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Isabela Eun Hae Yang</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Heloisa Nogueira Marques</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Ana Clara Sampaio Pires</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Isabela Sandroni Quaresma da Silva</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Luís Eduardo Harada</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista"> Ana Paula Pedronetti de Godoy</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Ivan Saavedra</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Manuela Queiroz</ListGroup.Item>
-                        
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">André Luiz Namias Vicente</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">João Victor de Oliveira Murer</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Maria Vitória Hozana</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                    <ListGroup.Item id="itemLista">André Pizzirani</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">João Vitor Lourenço de Oliveira</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Murilo Yutaka Kushi</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Antonio Carlos Ferreira Maximo (redes sociais)</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Julia Campoli Sacco</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Pietra Giulia de Oliveira Murer</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Eduarda Gabrielly Silva</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Kauã Jocarelli Pongiluppe</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Pietra Puglia Nuti</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Fernando Sotero de Lara</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Lays Barreira Garcia</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Rafaela Carolina dos Anjos Schmidt</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Gustavo Ferreira Gitzel</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Lívia Maria Rosa Brandão</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Rafaela Daroz Mondelli</ListGroup.Item>
-                    </ListGroup>
-                    <ListGroup horizontal>
-                        <ListGroup.Item id="itemLista">Gabriel Luiz Adriao Portela de Oliveira</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Lorenza Vitoria Martins de Oliveira</ListGroup.Item>
-                        <ListGroup.Item id="itemLista">Vitor Gabriel Marinho Domingues</ListGroup.Item>
-                    </ListGroup>
-                    </div>
-                    <br/>
-        </Card.Body>
-            </Card>
-        </Accordion>
-        
+        <Card id="Voluntarios">
+            <Card.Body className="section-card">
+                <p className="section-title">Voluntários</p>
+                <Table bordered hover>
+                    <tbody>
+                        {prepareArray(MEMBERS).map(populate)}
+                    </tbody>
+                </Table>
+            </Card.Body>
+        </Card>
     )
 }
 export default Voluntarios

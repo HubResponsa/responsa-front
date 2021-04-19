@@ -1,4 +1,3 @@
-import './css/Home.css'
 import Header from './Header'
 import Carrossel from './Carrossel'
 import QuemSomos from './QuemSomos'

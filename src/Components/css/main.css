@@ -1,0 +1,54 @@
+@font-face {
+    font-family:'Open-Sans';
+    src: url('./open-sans.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#imageCarrossel{
+    width: 50%;
+    height: 50%;
+}
+
+#component{
+    position: relative;
+    z-index: -1;
+}
+
+#schedule-table{
+    width: 26%;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 3%;
+}
+
+#logo{
+    width: 50px;
+}
+
+#navbar{
+    font-family: "Open-Sans";
+    background: #f1f1f1;
+    opacity: 90%;
+}
+
+.section-card{
+    font-family: "Open-Sans";
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.section-title{
+    font-size: 26px;
+}
+
+.section-subtitle{
+    font-size: 22px;
+}
+
+.section-text{
+    font-size: 16px;
+}
