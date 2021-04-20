@@ -18,7 +18,7 @@ function Funcionamento()
                         de almoço, das 11:40 às 13:30. Uma vez a cada 3 semanas, teremos uma aula de atualidades, 
                         das 17:10 às 18:00, para manter os alunos sempre informados sobre o que acontece no mundo e 
                         no nosso país. 
-                        As plataformas que utilizaremos serão Google classNameroom, para transmitir informações e 
+                        As plataformas que utilizaremos serão Google Classroom, para transmitir informações e 
                         atividades, e Google Meet, para aulas ao vivo.
                     </p>
                     

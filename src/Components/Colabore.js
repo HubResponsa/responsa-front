@@ -16,6 +16,10 @@ function Colabore()
                     Acessando o link da vakinha, é possível doar qualquer quantia a partir de 25 
                     reais que será destinado para a alimentação dos alunos, infraestrutura de sala 
                     de aula, materiais escolares e despesas do cursinho.
+                    
+                </p>
+                <p className="section-text">
+                    <i> Link da vakinha estará disponível em breve </i>
                 </p>
                 <p className="section-text">
                     A Arrecadação de computadores do Responsa é um projeto destinado aos alunos 
@@ -25,6 +29,9 @@ function Colabore()
                     Para participar dessa ação, entre em contato com o Cursinho Popular Responsa, através 
                     de email ou redes sociais listados abaixo.
                 </p>
+                {/* <p className="section-text">
+                    <i> Link do forms estará disponível em breve </i>
+                </p> */}
             </Card.Body>
         </Card>
     )
