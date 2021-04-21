@@ -72,3 +72,18 @@
 a {
     font-size: 16px;
 }
+
+.link-button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: "Open-Sans";
+    /*input has OS specific font-family*/
+    color: #069;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    text-decoration: underline;
+}
