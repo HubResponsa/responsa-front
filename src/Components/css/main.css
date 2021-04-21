@@ -6,7 +6,7 @@
     font-display: swap;
 }
 
-#imageCarrossel{
+#image-carrossel{
     width: 50%;
     height: 50%;
 }
@@ -43,7 +43,6 @@
     font-family: "Open-Sans";
     background: #f1f1f1;
     color: black;
-    opacity: 90%;
 }
 
 .section-card{
