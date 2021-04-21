@@ -30,7 +30,7 @@ function Colabore()
                     de email ou redes sociais listados abaixo.
                 </p>
                 <p className="section-subtitle">
-                    <a className="section-text" href="https://docs.google.com/forms/d/e/1FAIpQLSdn2kOQxXWMMVVTy83Hv9zCob7Qo7IkKFzqbXJ2JB8_NXA7yw/viewform">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdn2kOQxXWMMVVTy83Hv9zCob7Qo7IkKFzqbXJ2JB8_NXA7yw/viewform">
                         Formulário para doação de computadores
                     </a>
                 </p>
