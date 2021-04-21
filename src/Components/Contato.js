@@ -18,21 +18,26 @@ function Contatos()
                     <tbody>
                         <tr>
                             <td>
-                                <FacebookIcon id="icon"/>
-                                <a href="https://www.facebook.com/cursinhoresponsa/">Cursinho Responsa</a>
-                            </td>
-                            <td>
-                                <InstagramIcon id="icon"/>
-                                <a href="https://www.instagram.com/cursinhoresponsa/">Cursinho Responsa</a>
-                            </td>
+                                <FacebookIcon id="icon"/>&nbsp;
+                                <a href="https://www.facebook.com/cursinhoresponsa/">Cursinho&nbsp;Responsa</a>
+                            </td> 
                         </tr>
                         <tr>
                             <td>
-                                <TwitterIcon id="icon"/>
-                                <a href="https://twitter.com/ResponsaPopular">Cursinho Popular Responsa</a>
+                                <InstagramIcon id="icon"/>&nbsp;
+                                <a href="https://www.instagram.com/cursinhoresponsa/">Cursinho&nbsp;Responsa</a>
                             </td>
+                            
+                        </tr>
+                        <tr>
                             <td>
-                                <AlternateEmailIcon id="icon"/>
+                                <TwitterIcon id="icon"/>&nbsp;
+                                <a href="https://twitter.com/ResponsaPopular">Cursinho&nbsp;Popular&nbsp;Responsa</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <AlternateEmailIcon id="icon"/>&nbsp;
                                 <a href="#">cursinhoresponsa@gmail.com</a>
                             </td>
                         </tr>
