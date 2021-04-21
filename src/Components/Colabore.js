@@ -29,9 +29,11 @@ function Colabore()
                     Para participar dessa ação, entre em contato com o Cursinho Popular Responsa, através 
                     de email ou redes sociais listados abaixo.
                 </p>
-                {/* <p className="section-text">
-                    <i> Link do forms estará disponível em breve </i>
-                </p> */}
+                <p className="section-subtitle">
+                    <a className="section-text" href="https://docs.google.com/forms/d/e/1FAIpQLSdn2kOQxXWMMVVTy83Hv9zCob7Qo7IkKFzqbXJ2JB8_NXA7yw/viewform">
+                        Formulário para doação de computadores
+                    </a>
+                </p>
             </Card.Body>
         </Card>
     )
