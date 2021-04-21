@@ -34,6 +34,8 @@ const MEMBERS = [
     "Gabriel Luiz Adriao Portela de Oliveira",
     "Lorenza Vitoria Martins de Oliveira",
     "Vitor Gabriel Marinho Domingues",
+    "André Amaral",
+    "Vinícius Bautista",
 ]
 
 function prepareArray(array){
