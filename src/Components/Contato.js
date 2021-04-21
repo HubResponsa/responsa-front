@@ -14,7 +14,7 @@ function Contatos()
         <Card id="Contato">
             <Card.Body className="section-card">
                 <p className="section-title">Contatos</p>
-                <Table bordered hover>
+                <Table bordered hover id="social-table">
                     <tbody>
                         <tr>
                             <td>

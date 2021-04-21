@@ -8,7 +8,7 @@ function Header()
 {
     return(
         <div id="header">
-            <Navbar sticky="top" expand="lg" variant="light" id="navbar">
+            <Navbar sticky="top" expand="lg" variant="light" class="navbar">
                 <Navbar.Brand href="#home"> <img alt="responsa's logo" src={Logo} id="logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

@@ -68,7 +68,7 @@ function Voluntarios()
         <Card id="Voluntarios">
             <Card.Body className="section-card">
                 <p className="section-title">Voluntários</p>
-                <Table bordered hover>
+                <Table bordered hover id="members-table">
                     <tbody>
                         {prepareArray(MEMBERS).map(populate)}
                     </tbody>

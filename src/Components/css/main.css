@@ -18,18 +18,31 @@
 
 #schedule-table{
     width: 26%;
-    margin-left: 37%;
-    margin-right: 37%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3%;
+}
+
+#members-table{
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-table{
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logo{
     width: 50px;
 }
 
-#navbar{
+.navbar{
     font-family: "Open-Sans";
     background: #f1f1f1;
+    color: black;
     opacity: 90%;
 }
 
@@ -37,18 +50,22 @@
     font-family: "Open-Sans";
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 4em;
-    margin-right: 4em;
 }
 
 .section-title{
+    margin-left: 4em;
+    margin-right: 4em;
     font-size: 26px;
 }
 
 .section-subtitle{
     font-size: 22px;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 .section-text{
     font-size: 16px;
+    margin-left: 4em;
+    margin-right: 4em;
 }
