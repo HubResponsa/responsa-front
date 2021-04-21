@@ -15,7 +15,7 @@ function Carrossel()
                 alt="carrousel 1"
                 className="d-block w-100"
                 src={image1}
-                id="imageCarrossel"
+                id="image-carrossel"
                 />
                 <Carousel.Caption>
                 </Carousel.Caption>
@@ -25,7 +25,7 @@ function Carrossel()
                 alt="carrousel 2"
                 className="d-block w-100"
                 src={image2}
-                id="imageCarrossel"
+                id="image-carrossel"
                 />
                 <Carousel.Caption>
                 
@@ -36,7 +36,7 @@ function Carrossel()
                 alt="carrousel 3"
                 className="d-block w-100"
                 src={image3}
-                id="imageCarrossel"
+                id="image-carrossel"
                 />
                 <Carousel.Caption>
                 </Carousel.Caption>
@@ -46,7 +46,7 @@ function Carrossel()
                 alt="carrousel 4"
                 className="d-block w-100"
                 src={image4}
-                id="imageCarrossel"
+                id="image-carrossel"
                 />
                 <Carousel.Caption>
                 </Carousel.Caption>
