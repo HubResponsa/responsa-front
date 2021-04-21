@@ -38,7 +38,7 @@ function Contatos()
                         <tr>
                             <td>    
                                 <AlternateEmailIcon id="icon"/>&nbsp;
-                                <button class="link-button">cursinhoresponsa@gmail.com</button>
+                                <a href="#">cursinhoresponsa@gmail.com</a>
                             </td>
                         </tr>
                     </tbody>
