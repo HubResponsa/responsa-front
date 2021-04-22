@@ -9,17 +9,16 @@ function Colabore()
             <Card.Body className="section-card">
                 <p className="section-title">Colabore</p>
                 <p className="section-text">
-                    Ajude o Responsa a se preparar para o futuro retorno às aulas presenciais e 
-                    auxiliar nossos alunos com materiais!
+                    Ajude o Responsa a se preparar para o futuro retorno às aulas presenciais!
                 </p>
                 <p className="section-text">
-                    Acessando o link da vakinha, é possível doar qualquer quantia a partir de 25 
-                    reais que será destinado para a alimentação dos alunos, infraestrutura de sala 
-                    de aula, materiais escolares e despesas do cursinho.
-                    
+                    Caso queira colaborar, use o email abaixo como chave para o pagamento no PIX. Todo o dinheiro
+                    arrecadado será destinado para a alimentação dos alunos quando voltarmos a dar aula presencialmente.
                 </p>
                 <p className="section-text">
-                    <i> Link da vakinha estará disponível em breve </i>
+                    <a href="#">
+                        cursinhoresponsa@gmail.com
+                    </a>
                 </p>
                 <p className="section-text">
                     A Arrecadação de computadores do Responsa é um projeto destinado aos alunos 
