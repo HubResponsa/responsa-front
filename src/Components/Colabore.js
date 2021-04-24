@@ -17,7 +17,7 @@ function Colabore()
                 </p>
                 <p className="section-text">
                     <a href="#">
-                        cursinhoresponsa@gmail.com
+                        responsacursinho@gmail.com
                     </a>
                 </p>
                 <p className="section-text">
