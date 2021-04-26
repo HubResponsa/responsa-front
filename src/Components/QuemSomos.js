@@ -10,7 +10,7 @@ function Header()
                 <p className="section-title">Quem Somos</p>
                 <p className="section-text">
                     O Responsa é um projeto/movimento que se manifesta na forma de cursinho popular 
-                    <b>pré-vestibulinho</b>, formado por alunes/ex-alunes de escolas técnicas,
+                    <b> pré-vestibulinho</b>, formado por alunes/ex-alunes de escolas técnicas,
                     que atua desde 2013 na região metropolitana de Campinas. A primeira unidade era 
                     localizada no Centro e vinculada com a rede Emancipa. Em 2014 uma nova unidade 
                     foi aberta na região do Ouro Verde, que foram mantidas em conjunto até 2016, 
