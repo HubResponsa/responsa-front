@@ -9,7 +9,6 @@ const MEMBERS = [
     "Heloisa Nogueira Marques",
     "Ana Clara Sampaio Pires",
     "Isabela Sandroni Quaresma da Silva",
-    "Luís Eduardo Harada",
     "Ana Paula Pedronetti de Godoy",
     "Ivan Saavedra",
     "Manuela Queiroz",

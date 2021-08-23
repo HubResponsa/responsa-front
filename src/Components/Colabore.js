@@ -9,28 +9,25 @@ function Colabore()
             <Card.Body className="section-card">
                 <p className="section-title">Colabore</p>
                 <p className="section-text">
-                    Ajude o Responsa a se preparar para o futuro retorno às aulas presenciais!
+                    Ajude o Responsa a custear cestas básicas e inscrições dos alunos nos vestibulinhos!
                 </p>
                 <p className="section-text">
                     Caso queira colaborar, use o email abaixo como chave para o pagamento no PIX. Todo o dinheiro
                     arrecadado será destinado para a alimentação dos alunos quando voltarmos a dar aula presencialmente.
                 </p>
                 <p className="section-text">
+                    { /* eslint-disable-next-line */ }
                     <a href="#">
                         responsacursinho@gmail.com
                     </a>
                 </p>
                 <p className="section-text">
-                    A Arrecadação de computadores do Responsa é um projeto destinado aos alunos 
-                    do cursinho sem condições financeiras para os materiais que o Ensino a Distância 
-                    exige. Desse modo, todos os computadores arrecadados são destinados aos alunos 
-                    matriculados que manifestaram dificuldade quanto ao acesso às aulas e materiais virtuais.
-                    Para participar dessa ação, entre em contato com o Cursinho Popular Responsa, através 
-                    de email ou redes sociais listados abaixo.
+                    Estamos realizando também uma campanha de arrecadação no <a href="https://benfeitoria.com">benfeitoria</a>,  
+                    use o link abaixo caso queira ajudar. A campanha ficará de pé até o dia 21/09, então corre lá!
                 </p>
                 <p className="section-subtitle">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdn2kOQxXWMMVVTy83Hv9zCob7Qo7IkKFzqbXJ2JB8_NXA7yw/viewform">
-                        Formulário para doação de computadores
+                    <a href="https://benfeitoria.com/arrecadacaocursinhoresponsa">
+                        campanha de arrecadação
                     </a>
                 </p>
             </Card.Body>

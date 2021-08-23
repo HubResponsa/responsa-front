@@ -38,6 +38,7 @@ function Contatos()
                         <tr>
                             <td>    
                                 <AlternateEmailIcon id="icon"/>&nbsp;
+                                { /* eslint-disable-next-line */ }
                                 <a href="#">responsacursinho@gmail.com</a>
                             </td>
                         </tr>
