@@ -5,6 +5,7 @@ import image1 from '../images/carrousel-1.jpg'
 import image2 from '../images/carrousel-2.jpg'
 import image3 from '../images/carrousel-3.jpg'
 import image4 from '../images/carrousel-4.jpg'
+import image5 from '../images/carrousel-5.jpg'
 
 function Carrossel()
 {
@@ -46,6 +47,16 @@ function Carrossel()
                 alt="carrousel 4"
                 className="d-block w-100"
                 src={image4}
+                id="image-carrossel"
+                />
+                <Carousel.Caption>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={2000}>
+                <img
+                alt="carrousel 5"
+                className="d-block w-100"
+                src={image5}
                 id="image-carrossel"
                 />
                 <Carousel.Caption>
