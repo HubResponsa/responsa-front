@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.b38ce513.chunk.css",
-    "main.js": "/static/js/main.b2edeeff.chunk.js",
-    "main.js.map": "/static/js/main.b2edeeff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cd1bc7b5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cd1bc7b5.js.map",
-    "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
-    "static/js/2.3dbe150d.chunk.js": "/static/js/2.3dbe150d.chunk.js",
-    "static/js/2.3dbe150d.chunk.js.map": "/static/js/2.3dbe150d.chunk.js.map",
-    "static/js/3.e966f268.chunk.js": "/static/js/3.e966f268.chunk.js",
-    "static/js/3.e966f268.chunk.js.map": "/static/js/3.e966f268.chunk.js.map",
+    "main.js": "/static/js/main.4b67ea92.chunk.js",
+    "main.js.map": "/static/js/main.4b67ea92.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11d054e2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11d054e2.js.map",
+    "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
+    "static/js/2.e876a50a.chunk.js": "/static/js/2.e876a50a.chunk.js",
+    "static/js/2.e876a50a.chunk.js.map": "/static/js/2.e876a50a.chunk.js.map",
+    "static/js/3.366748e6.chunk.js": "/static/js/3.366748e6.chunk.js",
+    "static/js/3.366748e6.chunk.js.map": "/static/js/3.366748e6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
+    "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
     "static/css/main.b38ce513.chunk.css.map": "/static/css/main.b38ce513.chunk.css.map",
-    "static/js/2.3dbe150d.chunk.js.LICENSE.txt": "/static/js/2.3dbe150d.chunk.js.LICENSE.txt",
+    "static/js/2.e876a50a.chunk.js.LICENSE.txt": "/static/js/2.e876a50a.chunk.js.LICENSE.txt",
     "static/media/carrousel-1.cbff0106.jpg": "/static/media/carrousel-1.cbff0106.jpg",
     "static/media/carrousel-2.3f7670eb.jpg": "/static/media/carrousel-2.3f7670eb.jpg",
     "static/media/carrousel-3.e290c21c.jpg": "/static/media/carrousel-3.e290c21c.jpg",
-    "static/media/carrousel-4.519d42c8.jpg": "/static/media/carrousel-4.519d42c8.jpg",
+    "static/media/carrousel-4.0bb2b97c.jpg": "/static/media/carrousel-4.0bb2b97c.jpg",
+    "static/media/carrousel-5.b051f4f3.jpg": "/static/media/carrousel-5.b051f4f3.jpg",
     "static/media/logo.139a5c8e.png": "/static/media/logo.139a5c8e.png",
     "static/media/main.css": "/static/media/open-sans.regular.17e98b9e.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd1bc7b5.js",
-    "static/css/2.27dd871e.chunk.css",
-    "static/js/2.3dbe150d.chunk.js",
+    "static/js/runtime-main.11d054e2.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.e876a50a.chunk.js",
     "static/css/main.b38ce513.chunk.css",
-    "static/js/main.b2edeeff.chunk.js"
+    "static/js/main.4b67ea92.chunk.js"
   ]
 }
